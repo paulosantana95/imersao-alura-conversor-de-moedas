@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Conversor de Moedas</title>
 </head>
 <body>
@@ -19,7 +20,9 @@
         <label for="moeda">Insira o valor</label><br>
         <input type="number" id="valor" size="2" /><br>
         <button type="submit" onclick="Converter()">Converter</button>
-        <h2 id="valorConvertido"></h2>
+        <div class="results">
+            <h2 id="valorConvertido">Valor convertido aqui</h2>
+        </div>
     </div>
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
