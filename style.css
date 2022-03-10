@@ -62,5 +62,8 @@ button {
 
 h2 {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+    text-align: left;
 }
